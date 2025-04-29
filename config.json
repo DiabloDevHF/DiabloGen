@@ -1,0 +1,18 @@
+{
+    "default_image_name": "input_image.jpg",
+    "default_output_idnumber": "output_image_edited.jpg",
+    "default_state": 45,
+    "default_picture": 0 {
+        "width": 800,
+        "height": 600
+    },
+    "apply_sepia": true,
+    "apply_grayscale": true,
+    "apply_blur": true,
+    "blur_radius": 5,
+    "watermark_text": "Sample Watermark",
+    "watermark_position": {
+        "x_offset": 10,
+        "y_offset": 10
+    }
+}

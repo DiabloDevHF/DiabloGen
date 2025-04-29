@@ -1,0 +1,500 @@
+1 .idata:00400001 dd offset _imp__Function1
+2 .idata:00400002 dd offset _imp__Function2
+3 0x00400003: PUSH EBP
+4 _ZN12FuncName4Ev
+5 EXPORT Function5@5
+6 .data:00400006 MOV EAX, [EBP+0x6]
+7 kernel32.dll!FunctionName7
+8 .text:00400008 CALL 0x0040001C
+9 ??_C@_0N@ABC9@SampleSymbolName9?
+10 .rdata:0040000A "Simulated string resource 10"
+11 .idata:0040000B dd offset _imp__Function11
+12 .data:0040000C MOV EAX, [EBP+0xc]
+13 .idata:0040000D dd offset _imp__Function13
+14 kernel32.dll!FunctionName14
+15 EXPORT Function15@15
+16 .text:00400010 CALL 0x00400024
+17 .idata:00400011 dd offset _imp__Function17
+18 ??_C@_0N@ABC18@SampleSymbolName18?
+19 .idata:00400013 dd offset _imp__Function19
+20 .rdata:00400014 "Simulated string resource 20"
+21 kernel32.dll!FunctionName21
+22 .idata:00400016 dd offset _imp__Function22
+23 .idata:00400017 dd offset _imp__Function23
+24 .text:00400018 CALL 0x0040002C
+25 EXPORT Function25@5
+26 .idata:0040001A dd offset _imp__Function26
+27 ??_C@_0N@ABC27@SampleSymbolName27?
+28 kernel32.dll!FunctionName28
+29 .idata:0040001D dd offset _imp__Function29
+30 .rdata:0040001E "Simulated string resource 30"
+31 .idata:0040001F dd offset _imp__Function31
+32 .text:00400020 CALL 0x00400034
+33 0x00400021: PUSH EBP
+34 .idata:00400022 dd offset _imp__Function34
+35 kernel32.dll!FunctionName35
+36 ??_C@_0N@ABC36@SampleSymbolName36?
+37 .idata:00400025 dd offset _imp__Function37
+38 .idata:00400026 dd offset _imp__Function38
+39 0x00400027: PUSH EBP
+40 .rdata:00400028 "Simulated string resource 40"
+41 .idata:00400029 dd offset _imp__Function41
+42 kernel32.dll!FunctionName42
+43 .idata:0040002B dd offset _imp__Function43
+44 _ZN12FuncName44Ev
+45 ??_C@_0N@ABC45@SampleSymbolName45?
+46 .idata:0040002E dd offset _imp__Function46
+47 .idata:0040002F dd offset _imp__Function47
+48 .text:00400030 CALL 0x00400044
+49 kernel32.dll!FunctionName49
+50 .rdata:00400032 "Simulated string resource 50"
+51 0x00400033: PUSH EBP
+52 _ZN12FuncName52Ev
+53 .idata:00400035 dd offset _imp__Function53
+54 ??_C@_0N@ABC54@SampleSymbolName54?
+55 EXPORT Function55@15
+56 .text:00400038 CALL 0x0040004C
+57 0x00400039: PUSH EBP
+58 .idata:0040003A dd offset _imp__Function58
+59 .idata:0040003B dd offset _imp__Function59
+60 .rdata:0040003C "Simulated string resource 60"
+61 .idata:0040003D dd offset _imp__Function61
+62 .idata:0040003E dd offset _imp__Function62
+63 ??_C@_0N@ABC63@SampleSymbolName63?
+64 .text:00400040 CALL 0x00400054
+65 EXPORT Function65@5
+66 .data:00400042 MOV EAX, [EBP+0x2]
+67 .idata:00400043 dd offset _imp__Function67
+68 _ZN12FuncName68Ev
+69 0x00400045: PUSH EBP
+70 .rdata:00400046 "Simulated string resource 70"
+71 .idata:00400047 dd offset _imp__Function71
+72 ??_C@_0N@ABC72@SampleSymbolName72?
+73 .idata:00400049 dd offset _imp__Function73
+74 .idata:0040004A dd offset _imp__Function74
+75 EXPORT Function75@15
+76 _ZN12FuncName76Ev
+77 kernel32.dll!FunctionName77
+78 .data:0040004E MOV EAX, [EBP+0xe]
+79 .idata:0040004F dd offset _imp__Function79
+80 .rdata:00400050 "Simulated string resource 80"
+81 ??_C@_0N@ABC81@SampleSymbolName81?
+82 .idata:00400052 dd offset _imp__Function82
+83 .idata:00400053 dd offset _imp__Function83
+84 kernel32.dll!FunctionName84
+85 EXPORT Function85@5
+86 .idata:00400056 dd offset _imp__Function86
+87 0x00400057: PUSH EBP
+88 .text:00400058 CALL 0x0040006C
+89 .idata:00400059 dd offset _imp__Function89
+90 .rdata:0040005A "Simulated string resource 90"
+91 kernel32.dll!FunctionName91
+92 _ZN12FuncName92Ev
+93 0x0040005D: PUSH EBP
+94 .idata:0040005E dd offset _imp__Function94
+95 EXPORT Function95@15
+96 .text:00400060 CALL 0x00400074
+97 .idata:00400061 dd offset _imp__Function97
+98 kernel32.dll!FunctionName98
+99 ??_C@_0N@ABC99@SampleSymbolName99?
+100 .rdata:00400064 "Simulated string resource 100"
+101 .idata:00400065 dd offset _imp__Function101
+102 .data:00400066 MOV EAX, [EBP+0x6]
+103 .idata:00400067 dd offset _imp__Function103
+104 .text:00400068 CALL 0x0040007C
+105 kernel32.dll!FunctionName105
+106 .idata:0040006A dd offset _imp__Function106
+107 .idata:0040006B dd offset _imp__Function107
+108 ??_C@_0N@ABC108@SampleSymbolName108?
+109 .idata:0040006D dd offset _imp__Function109
+110 .rdata:0040006E "Simulated string resource 110"
+111 0x0040006F: PUSH EBP
+112 .text:00400070 CALL 0x00400084
+113 .idata:00400071 dd offset _imp__Function113
+114 .data:00400072 MOV EAX, [EBP+0x12]
+115 EXPORT Function115@15
+116 _ZN12FuncName116Ev
+117 ??_C@_0N@ABC117@SampleSymbolName117?
+118 .idata:00400076 dd offset _imp__Function118
+119 kernel32.dll!FunctionName119
+120 .rdata:00400078 "Simulated string resource 120"
+121 .idata:00400079 dd offset _imp__Function121
+122 .idata:0040007A dd offset _imp__Function122
+123 0x0040007B: PUSH EBP
+124 _ZN12FuncName124Ev
+125 EXPORT Function125@5
+126 ??_C@_0N@ABC126@SampleSymbolName126?
+127 .idata:0040007F dd offset _imp__Function127
+128 .text:00400080 CALL 0x00400094
+129 0x00400081: PUSH EBP
+130 .rdata:00400082 "Simulated string resource 130"
+131 .idata:00400083 dd offset _imp__Function131
+132 .data:00400084 MOV EAX, [EBP+0x4]
+133 kernel32.dll!FunctionName133
+134 .idata:00400086 dd offset _imp__Function134
+135 ??_C@_0N@ABC135@SampleSymbolName135?
+136 .text:00400088 CALL 0x0040009C
+137 .idata:00400089 dd offset _imp__Function137
+138 .data:0040008A MOV EAX, [EBP+0xa]
+139 .idata:0040008B dd offset _imp__Function139
+140 .rdata:0040008C "Simulated string resource 140"
+141 0x0040008D: PUSH EBP
+142 .idata:0040008E dd offset _imp__Function142
+143 .idata:0040008F dd offset _imp__Function143
+144 ??_C@_0N@ABC144@SampleSymbolName144?
+145 EXPORT Function145@5
+146 .idata:00400092 dd offset _imp__Function146
+147 kernel32.dll!FunctionName147
+148 _ZN12FuncName148Ev
+149 .idata:00400095 dd offset _imp__Function149
+150 .rdata:00400096 "Simulated string resource 150"
+151 .idata:00400097 dd offset _imp__Function151
+152 .text:00400098 CALL 0x004000AC
+153 ??_C@_0N@ABC153@SampleSymbolName153?
+154 kernel32.dll!FunctionName154
+155 EXPORT Function155@15
+156 .data:0040009C MOV EAX, [EBP+0x1c]
+157 .idata:0040009D dd offset _imp__Function157
+158 .idata:0040009E dd offset _imp__Function158
+159 0x0040009F: PUSH EBP
+160 .rdata:004000A0 "Simulated string resource 160"
+161 kernel32.dll!FunctionName161
+162 ??_C@_0N@ABC162@SampleSymbolName162?
+163 .idata:004000A3 dd offset _imp__Function163
+164 _ZN12FuncName164Ev
+165 EXPORT Function165@5
+166 .idata:004000A6 dd offset _imp__Function166
+167 .idata:004000A7 dd offset _imp__Function167
+168 .text:004000A8 CALL 0x004000BC
+169 .idata:004000A9 dd offset _imp__Function169
+170 .rdata:004000AA "Simulated string resource 170"
+171 ??_C@_0N@ABC171@SampleSymbolName171?
+172 _ZN12FuncName172Ev
+173 .idata:004000AD dd offset _imp__Function173
+174 .data:004000AE MOV EAX, [EBP+0xe]
+175 kernel32.dll!FunctionName175
+176 .text:004000B0 CALL 0x004000C4
+177 0x004000B1: PUSH EBP
+178 .idata:004000B2 dd offset _imp__Function178
+179 .idata:004000B3 dd offset _imp__Function179
+180 .rdata:004000B4 "Simulated string resource 180"
+181 .idata:004000B5 dd offset _imp__Function181
+182 kernel32.dll!FunctionName182
+183 0x004000B7: PUSH EBP
+184 .text:004000B8 CALL 0x004000CC
+185 EXPORT Function185@5
+186 .data:004000BA MOV EAX, [EBP+0x1a]
+187 .idata:004000BB dd offset _imp__Function187
+188 _ZN12FuncName188Ev
+189 ??_C@_0N@ABC189@SampleSymbolName189?
+190 .rdata:004000BE "Simulated string resource 190"
+191 .idata:004000BF dd offset _imp__Function191
+192 .text:004000C0 CALL 0x004000D4
+193 .idata:004000C1 dd offset _imp__Function193
+194 .idata:004000C2 dd offset _imp__Function194
+195 EXPORT Function195@15
+196 kernel32.dll!FunctionName196
+197 .idata:004000C5 dd offset _imp__Function197
+198 ??_C@_0N@ABC198@SampleSymbolName198?
+199 .idata:004000C7 dd offset _imp__Function199
+200 .rdata:004000C8 "Simulated string resource 200"
+201 0x004000C9: PUSH EBP
+202 .idata:004000CA dd offset _imp__Function202
+203 kernel32.dll!FunctionName203
+204 .data:004000CC MOV EAX, [EBP+0xc]
+205 EXPORT Function205@5
+206 .idata:004000CE dd offset _imp__Function206
+207 ??_C@_0N@ABC207@SampleSymbolName207?
+208 .text:004000D0 CALL 0x004000E4
+209 .idata:004000D1 dd offset _imp__Function209
+210 .rdata:004000D2 "Simulated string resource 210"
+211 .idata:004000D3 dd offset _imp__Function211
+212 _ZN12FuncName212Ev
+213 0x004000D5: PUSH EBP
+214 .idata:004000D6 dd offset _imp__Function214
+215 EXPORT Function215@15
+216 ??_C@_0N@ABC216@SampleSymbolName216?
+217 kernel32.dll!FunctionName217
+218 .idata:004000DA dd offset _imp__Function218
+219 0x004000DB: PUSH EBP
+220 .rdata:004000DC "Simulated string resource 220"
+221 .idata:004000DD dd offset _imp__Function221
+222 .data:004000DE MOV EAX, [EBP+0x1e]
+223 .idata:004000DF dd offset _imp__Function223
+224 .text:004000E0 CALL 0x004000F4
+225 ??_C@_0N@ABC225@SampleSymbolName225?
+226 .idata:004000E2 dd offset _imp__Function226
+227 .idata:004000E3 dd offset _imp__Function227
+228 .data:004000E4 MOV EAX, [EBP+0x4]
+229 .idata:004000E5 dd offset _imp__Function229
+230 .rdata:004000E6 "Simulated string resource 230"
+231 kernel32.dll!FunctionName231
+232 .text:004000E8 CALL 0x004000FC
+233 .idata:004000E9 dd offset _imp__Function233
+234 ??_C@_0N@ABC234@SampleSymbolName234?
+235 EXPORT Function235@15
+236 _ZN12FuncName236Ev
+237 0x004000ED: PUSH EBP
+238 kernel32.dll!FunctionName238
+239 .idata:004000EF dd offset _imp__Function239
+240 .rdata:004000F0 "Simulated string resource 240"
+241 .idata:004000F1 dd offset _imp__Function241
+242 .idata:004000F2 dd offset _imp__Function242
+243 ??_C@_0N@ABC243@SampleSymbolName243?
+244 _ZN12FuncName244Ev
+245 kernel32.dll!FunctionName245
+246 .data:004000F6 MOV EAX, [EBP+0x16]
+247 .idata:004000F7 dd offset _imp__Function247
+248 .text:004000F8 CALL 0x0040010C
+249 0x004000F9: PUSH EBP
+250 .rdata:004000FA "Simulated string resource 250"
+251 .idata:004000FB dd offset _imp__Function251
+252 ??_C@_0N@ABC252@SampleSymbolName252?
+253 .idata:004000FD dd offset _imp__Function253
+254 .idata:004000FE dd offset _imp__Function254
+255 EXPORT Function255@15
+256 .text:00400100 CALL 0x00400114
+257 .idata:00400101 dd offset _imp__Function257
+258 .data:00400102 MOV EAX, [EBP+0x2]
+259 kernel32.dll!FunctionName259
+260 .rdata:00400104 "Simulated string resource 260"
+261 ??_C@_0N@ABC261@SampleSymbolName261?
+262 .idata:00400106 dd offset _imp__Function262
+263 .idata:00400107 dd offset _imp__Function263
+264 .text:00400108 CALL 0x0040011C
+265 EXPORT Function265@5
+266 kernel32.dll!FunctionName266
+267 0x0040010B: PUSH EBP
+268 _ZN12FuncName268Ev
+269 .idata:0040010D dd offset _imp__Function269
+270 .rdata:0040010E "Simulated string resource 270"
+271 .idata:0040010F dd offset _imp__Function271
+272 .text:00400110 CALL 0x00400124
+273 kernel32.dll!FunctionName273
+274 .idata:00400112 dd offset _imp__Function274
+275 EXPORT Function275@15
+276 .data:00400114 MOV EAX, [EBP+0x14]
+277 .idata:00400115 dd offset _imp__Function277
+278 .idata:00400116 dd offset _imp__Function278
+279 ??_C@_0N@ABC279@SampleSymbolName279?
+280 .rdata:00400118 "Simulated string resource 280"
+281 .idata:00400119 dd offset _imp__Function281
+282 .data:0040011A MOV EAX, [EBP+0x1a]
+283 .idata:0040011B dd offset _imp__Function283
+284 _ZN12FuncName284Ev
+285 EXPORT Function285@5
+286 .idata:0040011E dd offset _imp__Function286
+287 kernel32.dll!FunctionName287
+288 ??_C@_0N@ABC288@SampleSymbolName288?
+289 .idata:00400121 dd offset _imp__Function289
+290 .rdata:00400122 "Simulated string resource 290"
+291 0x00400123: PUSH EBP
+292 _ZN12FuncName292Ev
+293 .idata:00400125 dd offset _imp__Function293
+294 kernel32.dll!FunctionName294
+295 EXPORT Function295@15
+296 .text:00400128 CALL 0x0040013C
+297 ??_C@_0N@ABC297@SampleSymbolName297?
+298 .idata:0040012A dd offset _imp__Function298
+299 .idata:0040012B dd offset _imp__Function299
+300 .rdata:0040012C "Simulated string resource 300"
+301 kernel32.dll!FunctionName301
+302 .idata:0040012E dd offset _imp__Function302
+303 0x0040012F: PUSH EBP
+304 .text:00400130 CALL 0x00400144
+305 EXPORT Function305@5
+306 ??_C@_0N@ABC306@SampleSymbolName306?
+307 .idata:00400133 dd offset _imp__Function307
+308 kernel32.dll!FunctionName308
+309 0x00400135: PUSH EBP
+310 .rdata:00400136 "Simulated string resource 310"
+311 .idata:00400137 dd offset _imp__Function311
+312 .text:00400138 CALL 0x0040014C
+313 .idata:00400139 dd offset _imp__Function313
+314 .idata:0040013A dd offset _imp__Function314
+315 ??_C@_0N@ABC315@SampleSymbolName315?
+316 _ZN12FuncName316Ev
+317 .idata:0040013D dd offset _imp__Function317
+318 .data:0040013E MOV EAX, [EBP+0x1e]
+319 .idata:0040013F dd offset _imp__Function319
+320 .rdata:00400140 "Simulated string resource 320"
+321 0x00400141: PUSH EBP
+322 kernel32.dll!FunctionName322
+323 .idata:00400143 dd offset _imp__Function323
+324 ??_C@_0N@ABC324@SampleSymbolName324?
+325 EXPORT Function325@5
+326 .idata:00400146 dd offset _imp__Function326
+327 0x00400147: PUSH EBP
+328 .text:00400148 CALL 0x0040015C
+329 kernel32.dll!FunctionName329
+330 .rdata:0040014A "Simulated string resource 330"
+331 .idata:0040014B dd offset _imp__Function331
+332 _ZN12FuncName332Ev
+333 ??_C@_0N@ABC333@SampleSymbolName333?
+334 .idata:0040014E dd offset _imp__Function334
+335 EXPORT Function335@15
+336 .text:00400150 CALL 0x00400164
+337 .idata:00400151 dd offset _imp__Function337
+338 .idata:00400152 dd offset _imp__Function338
+339 0x00400153: PUSH EBP
+340 .rdata:00400154 "Simulated string resource 340"
+341 .idata:00400155 dd offset _imp__Function341
+342 ??_C@_0N@ABC342@SampleSymbolName342?
+343 kernel32.dll!FunctionName343
+344 .text:00400158 CALL 0x0040016C
+345 EXPORT Function345@5
+346 .idata:0040015A dd offset _imp__Function346
+347 .idata:0040015B dd offset _imp__Function347
+348 .data:0040015C MOV EAX, [EBP+0x1c]
+349 .idata:0040015D dd offset _imp__Function349
+350 .rdata:0040015E "Simulated string resource 350"
+351 ??_C@_0N@ABC351@SampleSymbolName351?
+352 .text:00400160 CALL 0x00400174
+353 .idata:00400161 dd offset _imp__Function353
+354 .data:00400162 MOV EAX, [EBP+0x2]
+355 EXPORT Function355@15
+356 _ZN12FuncName356Ev
+357 kernel32.dll!FunctionName357
+358 .idata:00400166 dd offset _imp__Function358
+359 .idata:00400167 dd offset _imp__Function359
+360 .rdata:00400168 "Simulated string resource 360"
+361 .idata:00400169 dd offset _imp__Function361
+362 .idata:0040016A dd offset _imp__Function362
+363 0x0040016B: PUSH EBP
+364 kernel32.dll!FunctionName364
+365 EXPORT Function365@5
+366 .data:0040016E MOV EAX, [EBP+0xe]
+367 .idata:0040016F dd offset _imp__Function367
+368 .text:00400170 CALL 0x00400184
+369 ??_C@_0N@ABC369@SampleSymbolName369?
+370 .rdata:00400172 "Simulated string resource 370"
+371 kernel32.dll!FunctionName371
+372 .data:00400174 MOV EAX, [EBP+0x14]
+373 .idata:00400175 dd offset _imp__Function373
+374 .idata:00400176 dd offset _imp__Function374
+375 EXPORT Function375@15
+376 .text:00400178 CALL 0x0040018C
+377 .idata:00400179 dd offset _imp__Function377
+378 ??_C@_0N@ABC378@SampleSymbolName378?
+379 .idata:0040017B dd offset _imp__Function379
+380 .rdata:0040017C "Simulated string resource 380"
+381 0x0040017D: PUSH EBP
+382 .idata:0040017E dd offset _imp__Function382
+383 .idata:0040017F dd offset _imp__Function383
+384 .text:00400180 CALL 0x00400194
+385 kernel32.dll!FunctionName385
+386 .idata:00400182 dd offset _imp__Function386
+387 ??_C@_0N@ABC387@SampleSymbolName387?
+388 _ZN12FuncName388Ev
+389 .idata:00400185 dd offset _imp__Function389
+390 .rdata:00400186 "Simulated string resource 390"
+391 .idata:00400187 dd offset _imp__Function391
+392 .text:00400188 CALL 0x0040019C
+393 0x00400189: PUSH EBP
+394 .idata:0040018A dd offset _imp__Function394
+395 EXPORT Function395@15
+396 ??_C@_0N@ABC396@SampleSymbolName396?
+397 .idata:0040018D dd offset _imp__Function397
+398 .idata:0040018E dd offset _imp__Function398
+399 kernel32.dll!FunctionName399
+400 .rdata:00400190 "Simulated string resource 400"
+401 .idata:00400191 dd offset _imp__Function401
+402 .data:00400192 MOV EAX, [EBP+0x12]
+403 .idata:00400193 dd offset _imp__Function403
+404 _ZN12FuncName404Ev
+405 ??_C@_0N@ABC405@SampleSymbolName405?
+406 kernel32.dll!FunctionName406
+407 .idata:00400197 dd offset _imp__Function407
+408 .text:00400198 CALL 0x004001AC
+409 .idata:00400199 dd offset _imp__Function409
+410 .rdata:0040019A "Simulated string resource 410"
+411 0x0040019B: PUSH EBP
+412 _ZN12FuncName412Ev
+413 kernel32.dll!FunctionName413
+414 ??_C@_0N@ABC414@SampleSymbolName414?
+415 EXPORT Function415@15
+416 .text:004001A0 CALL 0x004001B4
+417 0x004001A1: PUSH EBP
+418 .idata:004001A2 dd offset _imp__Function418
+419 .idata:004001A3 dd offset _imp__Function419
+420 .rdata:004001A4 "Simulated string resource 420"
+421 .idata:004001A5 dd offset _imp__Function421
+422 .idata:004001A6 dd offset _imp__Function422
+423 ??_C@_0N@ABC423@SampleSymbolName423?
+424 .text:004001A8 CALL 0x004001BC
+425 EXPORT Function425@5
+426 .data:004001AA MOV EAX, [EBP+0xa]
+427 kernel32.dll!FunctionName427
+428 _ZN12FuncName428Ev
+429 0x004001AD: PUSH EBP
+430 .rdata:004001AE "Simulated string resource 430"
+431 .idata:004001AF dd offset _imp__Function431
+432 ??_C@_0N@ABC432@SampleSymbolName432?
+433 .idata:004001B1 dd offset _imp__Function433
+434 kernel32.dll!FunctionName434
+435 EXPORT Function435@15
+436 _ZN12FuncName436Ev
+437 .idata:004001B5 dd offset _imp__Function437
+438 .data:004001B6 MOV EAX, [EBP+0x16]
+439 .idata:004001B7 dd offset _imp__Function439
+440 .rdata:004001B8 "Simulated string resource 440"
+441 ??_C@_0N@ABC441@SampleSymbolName441?
+442 .idata:004001BA dd offset _imp__Function442
+443 .idata:004001BB dd offset _imp__Function443
+444 .data:004001BC MOV EAX, [EBP+0x1c]
+445 EXPORT Function445@5
+446 .idata:004001BE dd offset _imp__Function446
+447 0x004001BF: PUSH EBP
+448 .text:004001C0 CALL 0x004001D4
+449 .idata:004001C1 dd offset _imp__Function449
+450 .rdata:004001C2 "Simulated string resource 450"
+451 .idata:004001C3 dd offset _imp__Function451
+452 _ZN12FuncName452Ev
+453 0x004001C5: PUSH EBP
+454 .idata:004001C6 dd offset _imp__Function454
+455 kernel32.dll!FunctionName455
+456 .text:004001C8 CALL 0x004001DC
+457 .idata:004001C9 dd offset _imp__Function457
+458 .idata:004001CA dd offset _imp__Function458
+459 ??_C@_0N@ABC459@SampleSymbolName459?
+460 .rdata:004001CC "Simulated string resource 460"
+461 .idata:004001CD dd offset _imp__Function461
+462 kernel32.dll!FunctionName462
+463 .idata:004001CF dd offset _imp__Function463
+464 .text:004001D0 CALL 0x004001E4
+465 EXPORT Function465@5
+466 .idata:004001D2 dd offset _imp__Function466
+467 .idata:004001D3 dd offset _imp__Function467
+468 ??_C@_0N@ABC468@SampleSymbolName468?
+469 kernel32.dll!FunctionName469
+470 .rdata:004001D6 "Simulated string resource 470"
+471 0x004001D7: PUSH EBP
+472 .text:004001D8 CALL 0x004001EC
+473 .idata:004001D9 dd offset _imp__Function473
+474 .data:004001DA MOV EAX, [EBP+0x1a]
+475 EXPORT Function475@15
+476 kernel32.dll!FunctionName476
+477 ??_C@_0N@ABC477@SampleSymbolName477?
+478 .idata:004001DE dd offset _imp__Function478
+479 .idata:004001DF dd offset _imp__Function479
+480 .rdata:004001E0 "Simulated string resource 480"
+481 .idata:004001E1 dd offset _imp__Function481
+482 .idata:004001E2 dd offset _imp__Function482
+483 kernel32.dll!FunctionName483
+484 _ZN12FuncName484Ev
+485 EXPORT Function485@5
+486 ??_C@_0N@ABC486@SampleSymbolName486?
+487 .idata:004001E7 dd offset _imp__Function487
+488 .text:004001E8 CALL 0x004001FC
+489 0x004001E9: PUSH EBP
+490 .rdata:004001EA "Simulated string resource 490"
+491 .idata:004001EB dd offset _imp__Function491
+492 .data:004001EC MOV EAX, [EBP+0xc]
+493 .idata:004001ED dd offset _imp__Function493
+494 .idata:004001EE dd offset _imp__Function494
+495 ??_C@_0N@ABC495@SampleSymbolName495?
+496 .text:004001F0 CALL 0x00400204
+497 kernel32.dll!FunctionName497
+498 .data:004001F2 MOV EAX, [EBP+0x12]
+499 .idata:004001F3 dd offset _imp__Function499
+500 .rdata:004001F4 "Simulated string resource 500"
